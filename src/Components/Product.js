@@ -43,7 +43,7 @@ function Product(props) {
         <div className="Productdiv">
 
             <div className="prodimgdiv">
-                <img className="productImg" style={{ height: "20vh" }} src={env == "production"?process.env.PUBLIC_URL+"/ecom/"+ImageURL:process.env.PUBLIC_URL+"/"+ImageURL} />
+                <img className="productImg" style={{ height: "20vh" }} src={env == "production"?process.env.PUBLIC_URL+"/"+ImageURL:process.env.PUBLIC_URL+"/"+ImageURL} />
                 <p>{OfferText}</p>
             </div>
             <div className="proddtlsdiv">
