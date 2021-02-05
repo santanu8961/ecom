@@ -1,0 +1,85 @@
+{
+    "products":[
+        {
+            "Brand name":"Milkfood",
+            "Product name":"Milkfood Rich Desi Danedar Ghee(Cartoon)",
+            "Quantity":"1L",
+            "Price":"408",
+            "MRP":"498",
+            "Image URL":"image/img1.jpeg",
+            "Offer Text":"18% OFF"
+        },
+        {
+            "Brand name":"Grofers Mothers Choice",
+            "Product name":"Grofers Mothers Choice Desi Ghee",
+            "Quantity":"1L",
+            "Price":"414",
+            "MRP":"450",
+            "Image URL":"image/img1.jpeg",
+            "Offer Text":"8% OFF"
+        },
+        {
+            "Brand name":"Amul",
+            "Product name":"Amul Pure Ghee",
+            "Quantity":"1L",
+            "Price":"439",
+            "MRP":"460",
+        "Image URL":"image/img1.jpeg",
+        "Offer Text":"8% OFF"
+        },
+        {
+            "Brand name":"Apple",
+            "Product name":"Iphone 8",
+            "Quantity":"1 Pc",
+            "Price":"72000",
+            "MRP":"80000",
+            "Image URL":"image/img1.jpeg",
+            "Offer Text":"10% Off"
+        },
+        {
+            "Brand name":"Apple",
+            "Product name":"Iphone 9",
+            "Quantity":"1 Pc",
+            "Price":"72000",
+            "MRP":"80000",
+            "Image URL":"image/img1.jpeg",
+            "Offer Text":"10% off"
+        },
+        {
+            "Brand name":"Apple",
+            "Product name":"Iphone 10",
+            "Quantity":"1 Pc",
+            "Price":"81000",
+            "MRP":"90000",
+            "Image URL":"image/img1.jpeg",
+            "Offer Text":"10% Off"
+        },
+        {
+            "Brand name":"Realme",
+            "Product name":"Realme 3 pro",
+            "Quantity":"1 Pc",
+            "Price":"16000",
+            "MRP":"20000",
+            "Image URL":"image/img1.jpeg",
+            "Offer Text":"20% Off"
+        },
+        {
+            "Brand name":"Oppo",
+            "Product name":"Oppo 4",
+            "Quantity":"1 Pc",
+            "Price":"18000",
+            "MRP":"20000",
+            "Image URL":"image/img1.jpeg",
+            "Offer Text":"10% Off"
+        },
+        {
+            "Brand name":"OnePlus",
+            "Product name":"OnePlus 7 Pro",
+            "Quantity":"1 Pc",
+            "Price":"36000",
+            "MRP":"40000",
+            "Image URL":"image/img1.jpeg",
+            "Offer Text":"10% Off"
+        }
+    ]
+}

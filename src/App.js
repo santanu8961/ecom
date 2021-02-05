@@ -1,23 +1,50 @@
 import logo from './logo.svg';
 import './App.css';
+import HeaderComponent from './Components/HeaderComponent';
+import FooterComponent from './Components/FooterComponent';
+import { useEffect, useState } from 'react';
+import {fetchproducts} from "./Controllers/controller";
+import Product from './Components/Product';
+import ModalComponent from './Components/ModalComponent';
 
 function App() {
+    var [products,setproducts] = useState([]);
+    var [tprice,settprice] = useState(0);
+    var [tquantity,settquantity] = useState(0);
+    
+    useEffect(() => {
+      fetchproducts().then(res=> {return res.json()}).then(prods => {
+        console.log(prods.products)
+        setproducts(prods.products)})
+      return () => {
+        
+      }
+    }, [])
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <HeaderComponent />
+        <div className="Productsdiv">
+          {
+            products.map((product)=>{
+             return (<Product 
+             BrandName={product["Brand name"]} 
+             Productname={product["Product name"]} 
+             Quantity={product["Quantity"]} 
+             Price={product["Price"]} 
+             MRP={product["MRP"]} 
+             ImageURL={product["Image URL"]} 
+             OfferText={product["Offer Text"]} 
+             settprice={settprice}
+             settquantity={settquantity}
+             tprice={tprice}
+             tquantity={tquantity}
+             />)
+            })
+          }
+        </div>
+        <FooterComponent totalprice={tprice} totalquantity={tquantity} />
+        <ModalComponent totalprice={tprice} totalquantity={tquantity} />
     </div>
   );
 }
