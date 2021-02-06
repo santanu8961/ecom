@@ -15,7 +15,7 @@
             "Quantity":"1L",
             "Price":"414",
             "MRP":"450",
-            "Image URL":"image/img1.jpeg",
+            "Image URL":"image/img2.jpeg",
             "Offer Text":"8% OFF"
         },
         {
@@ -24,7 +24,7 @@
             "Quantity":"1L",
             "Price":"439",
             "MRP":"460",
-        "Image URL":"image/img1.jpeg",
+        "Image URL":"image/img3.jpeg",
         "Offer Text":"8% OFF"
         },
         {
@@ -33,7 +33,7 @@
             "Quantity":"1 Pc",
             "Price":"72000",
             "MRP":"80000",
-            "Image URL":"image/img1.jpeg",
+            "Image URL":"image/img4.jpeg",
             "Offer Text":"10% Off"
         },
         {
@@ -42,7 +42,7 @@
             "Quantity":"1 Pc",
             "Price":"72000",
             "MRP":"80000",
-            "Image URL":"image/img1.jpeg",
+            "Image URL":"image/img5.jpeg",
             "Offer Text":"10% off"
         },
         {
@@ -51,7 +51,7 @@
             "Quantity":"1 Pc",
             "Price":"81000",
             "MRP":"90000",
-            "Image URL":"image/img1.jpeg",
+            "Image URL":"image/img6.jpeg",
             "Offer Text":"10% Off"
         },
         {
@@ -60,7 +60,7 @@
             "Quantity":"1 Pc",
             "Price":"16000",
             "MRP":"20000",
-            "Image URL":"image/img1.jpeg",
+            "Image URL":"image/img7.jpeg",
             "Offer Text":"20% Off"
         },
         {
@@ -69,7 +69,7 @@
             "Quantity":"1 Pc",
             "Price":"18000",
             "MRP":"20000",
-            "Image URL":"image/img1.jpeg",
+            "Image URL":"image/img8.jpeg",
             "Offer Text":"10% Off"
         },
         {
@@ -78,7 +78,7 @@
             "Quantity":"1 Pc",
             "Price":"36000",
             "MRP":"40000",
-            "Image URL":"image/img1.jpeg",
+            "Image URL":"image/img9.jpeg",
             "Offer Text":"10% Off"
         }
     ]
